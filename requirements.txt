@@ -2,4 +2,4 @@
 pandas
 pymongo
 dotenv
-jupiter
+jupyter
