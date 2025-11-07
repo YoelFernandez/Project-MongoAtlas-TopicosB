@@ -10,8 +10,8 @@ try:
     client = MongoClient(MONGO_URI_ATLAS)
     print("Cliente de MongoDB Atlas creado exitosamente.")
     db = client[DATABASE_NAME]
-    # crear la base de datos en mongoDB atlas, para ello tenemos que crear una coleccion
-    db.create_collection("mi_coleccion")
+    # # crear la base de datos en mongoDB atlas, para ello tenemos que crear una coleccion
+    # db.create_collection("mi_coleccion")
     print("Conexión exitosa a la base de datos MongoDB Atlas:", DATABASE_NAME)
     print("bases de datos disponibles:", client.list_database_names())
 
